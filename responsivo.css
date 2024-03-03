@@ -1,0 +1,619 @@
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(https://images5.alphacoders.com/100/1009154.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container-title {
+    background-color: rgb(42, 1, 61);
+    border-radius: 15px;
+    padding: 1px;
+    height: 55vh;
+  }
+
+  .container-title .title h1 {
+    color: rgb(247, 239, 245);
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 45px;
+  }
+
+  .container-title .title p {
+    color: rgb(247, 239, 245);
+    font-size: 30px;
+    text-align: center;
+    top: 30vw;
+  }
+
+  .container-card1 {
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 72vh;
+    margin-top: 45px;
+    margin-right: 5%;
+    background-color: aliceblue;
+  }
+
+  .container-card1 img {
+    border-radius: 100%;
+    max-width: 90%;
+    margin-left: 15px;
+  }
+
+  .container-card1 h1 {
+    color: rgb(156, 8, 124);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container-card1 input {
+    background-color: rgba(197, 195, 190, 0.37);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px;
+  }
+
+  .container-card1 ::placeholder {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+  }
+
+  .container-card1 a {
+    text-decoration: none;
+  }
+
+  .container-card1 ul {
+    list-style: none;
+    color: rgb(156, 8, 124);
+  }
+
+  /*----------container-formulário----------*/
+
+  .container-formulario {
+    box-shadow: 1px 1px 1px 1px;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 90vh;
+    margin-left: 50px;
+    margin-right: 5%;
+    background-color: aliceblue;
+    display: inline-block;
+  }
+
+  .container-title-form {
+    box-shadow: 0.1px 0px 0px 1px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 14vh;
+    height: 50%;
+  }
+
+  .container-formulario input {
+    background-color: rgba(197, 195, 190, 0.37);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px;
+    text-align: center;
+    width: 97%;
+  }
+
+  .container-formulario ::placeholder {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+  }
+
+  .container-formulario i {
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .container-title-form p {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+  #botao-buscar {
+    background-color: rgb(156, 8, 124);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 18%;
+    width: 70%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #botao-buscar:hover {
+    background-color: rgb(90, 1, 71);
+    box-shadow: 1px 3px 2px 1px;
+    color: aliceblue;
+    width: 70%;
+  }
+
+  #botao-aceito {
+    background-color: rgb(156, 8, 124);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    height: 5vh;
+    margin-left: 35%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  #botao-aceito:hover {
+    background-color: rgb(90, 1, 71);
+    box-shadow: 1px 3px 2px 1px;
+    color: aliceblue;
+    max-width: 30%;
+  }
+
+  .btn-divisao {
+    box-shadow: 1px 1px 2px 4px 6px;
+    background-color: rgb(42, 1, 61);
+    max-width: 100%;
+    height: 110vh;
+    border-radius: 15px;
+  }
+
+  .btn-divisao p {
+    color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .btn-aceito p {
+    color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .btn-aceito h3 {
+    color: rgb(14, 15, 15);
+    font-size: 30px;
+  }
+
+  .btn-divisao span {
+    color: orange;
+    font-weight: 700;
+  }
+
+  .btn-aceito h1 {
+    color: rgb(156, 8, 124);
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .flex {
+    display: block;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    background-image: url(https://images5.alphacoders.com/100/1009154.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container-title {
+    background-color: rgb(42, 1, 61);
+    border-radius: 15px;
+    padding: 1px;
+    height: 55vh;
+  }
+
+  .container-title .title h1 {
+    color: rgb(247, 239, 245);
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 45px;
+  }
+
+  .container-title .title p {
+    color: rgb(247, 239, 245);
+    font-size: 30px;
+    text-align: center;
+    top: 30vw;
+  }
+
+  .container-card1 {
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 72vh;
+    margin-top: 45px;
+    margin-right: 5%;
+    background-color: aliceblue;
+  }
+
+  .container-card1 img {
+    border-radius: 100%;
+    max-width: 90%;
+    margin-left: 15px;
+  }
+
+  .container-card1 h1 {
+    color: rgb(156, 8, 124);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container-card1 input {
+    background-color: rgba(197, 195, 190, 0.37);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px;
+  }
+
+  .container-card1 ::placeholder {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+  }
+
+  .container-card1 a {
+    text-decoration: none;
+  }
+
+  .container-card1 ul {
+    list-style: none;
+    color: rgb(156, 8, 124);
+  }
+
+  /*----------container-formulário----------*/
+
+  .container-formulario {
+    box-shadow: 1px 1px 1px 1px;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 86vh;
+    margin-left: 50px;
+    margin-right: 5%;
+    background-color: aliceblue;
+    display: inline-block;
+  }
+
+  .container-title-form {
+    box-shadow: 0.1px 0px 0px 1px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 14vh;
+    height: 50%;
+  }
+
+  .container-formulario input {
+    background-color: rgba(197, 195, 190, 0.37);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px;
+    text-align: center;
+    width: 97%;
+  }
+
+  .container-formulario ::placeholder {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+  }
+
+  .container-formulario i {
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .container-title-form p {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+  #botao-buscar {
+    background-color: rgb(156, 8, 124);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 1%;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #botao-buscar:hover {
+    background-color: rgb(90, 1, 71);
+    box-shadow: 1px 3px 2px 1px;
+    color: aliceblue;
+    width: 100%;
+  }
+
+  #botao-aceito {
+    background-color: rgb(156, 8, 124);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    height: 5vh;
+    margin-left: 35%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  #botao-aceito:hover {
+    background-color: rgb(90, 1, 71);
+    box-shadow: 1px 3px 2px 1px;
+    color: aliceblue;
+    max-width: 30%;
+  }
+
+  .btn-divisao {
+    box-shadow: 1px 1px 2px 4px 6px;
+    background-color: rgb(42, 1, 61);
+    max-width: 100%;
+    height: 110vh;
+    border-radius: 15px;
+  }
+
+  .btn-divisao p {
+    color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .btn-aceito p {
+    color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .btn-aceito h3 {
+    color: rgb(14, 15, 15);
+    font-size: 30px;
+  }
+
+  .btn-divisao span {
+    color: orange;
+    font-weight: 700;
+  }
+
+  .btn-aceito h1 {
+    color: rgb(156, 8, 124);
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .flex {
+    display: block;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background-image: url(https://images5.alphacoders.com/100/1009154.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container-title {
+    background-color: rgb(42, 1, 61);
+    border-radius: 15px;
+    padding: 1px;
+    height: 75vh;
+  }
+
+  .container-title .title h1 {
+    color: rgb(247, 239, 245);
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 45px;
+  }
+
+  .container-title .title p {
+    color: rgb(247, 239, 245);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container-card1 {
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 100vh;
+    margin-top: 45px;
+    margin-right: 5%;
+    background-color: aliceblue;
+  }
+
+  .container-card1 img {
+    border-radius: 100%;
+    max-width: 90%;
+    margin-left: 15px;
+  }
+
+  .container-card1 h1 {
+    color: rgb(156, 8, 124);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container-card1 input {
+    background-color: rgba(197, 195, 190, 0.37);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px;
+  }
+
+  .container-card1 ::placeholder {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+  }
+
+  .container-card1 a {
+    text-decoration: none;
+  }
+
+  .container-card1 ul {
+    list-style: none;
+    color: rgb(156, 8, 124);
+  }
+
+  /*----------container-formulário----------*/
+
+  .container-formulario {
+    box-shadow: 1px 1px 1px 1px;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 130vh;
+    margin-left: 37px;
+    margin-right: 5%;
+    background-color: aliceblue;
+    display: inline-block;
+  }
+
+  .container-title-form {
+    box-shadow: 0.1px 0px 0px 1px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 14vh;
+    height: 50%;
+  }
+
+  .container-formulario input {
+    background-color: rgba(197, 195, 190, 0.37);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0px;
+    text-align: center;
+    width: 97%;
+  }
+
+  .container-formulario ::placeholder {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 20px;
+  }
+
+  .container-formulario i {
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .container-title-form p {
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  #botao-buscar {
+    background-color: rgb(156, 8, 124);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 1%;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #botao-buscar:hover {
+    background-color: rgb(90, 1, 71);
+    box-shadow: 1px 3px 2px 1px;
+    color: aliceblue;
+    width: 100%;
+  }
+
+  #botao-aceito {
+    background-color: rgb(156, 8, 124);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 10vh;
+    margin-left: 35%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  #botao-aceito:hover {
+    background-color: rgb(90, 1, 71);
+    box-shadow: 1px 3px 2px 1px;
+    color: aliceblue;
+    max-width: 30%;
+  }
+
+  .btn-divisao {
+    box-shadow: 1px 1px 2px 4px 6px;
+    background-color: rgb(42, 1, 61);
+    max-width: 100%;
+    height: 190vh;
+    border-radius: 15px;
+  }
+
+  .btn-divisao p {
+    color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .btn-aceito p {
+    color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .btn-aceito h3 {
+    color: rgb(14, 15, 15);
+    font-size: 30px;
+  }
+
+  .btn-divisao span {
+    color: orange;
+    font-weight: 700;
+  }
+
+  .btn-aceito h1 {
+    color: rgb(156, 8, 124);
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .flex {
+    display: block;
+    margin-right: 15px;
+  }
+}
